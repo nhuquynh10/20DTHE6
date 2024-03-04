@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            txtUserName = new TextBox();
-            txtPassword = new TextBox();
+            txtNguoiDung = new TextBox();
+            txtMatKhau = new TextBox();
             label2 = new Label();
             button1 = new Button();
             SuspendLayout();
@@ -44,19 +44,19 @@
             label1.TabIndex = 0;
             label1.Text = "UserName";
             // 
-            // txtUserName
+            // textBox1
             // 
-            txtUserName.Location = new Point(255, 109);
-            txtUserName.Name = "txtUserName";
-            txtUserName.Size = new Size(355, 27);
-            txtUserName.TabIndex = 1;
+            txtNguoiDung.Location = new Point(255, 109);
+            txtNguoiDung.Name = "txtNguoiDung";
+            txtNguoiDung.Size = new Size(355, 27);
+            txtNguoiDung.TabIndex = 1;
             // 
-            // txtPassword
+            // textBox2
             // 
-            txtPassword.Location = new Point(255, 172);
-            txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(355, 27);
-            txtPassword.TabIndex = 3;
+            txtMatKhau.Location = new Point(255, 172);
+            txtMatKhau.Name = "txtMatKhau";
+            txtMatKhau.Size = new Size(355, 27);
+            txtMatKhau.TabIndex = 3;
             // 
             // label2
             // 
@@ -83,9 +83,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(button1);
-            Controls.Add(txtPassword);
+            Controls.Add(txtMatKhau);
             Controls.Add(label2);
-            Controls.Add(txtUserName);
+            Controls.Add(txtNguoiDung);
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
@@ -96,8 +96,8 @@
         #endregion
 
         private Label label1;
-        private TextBox txtUserName;
-        private TextBox txtPassword;
+        private TextBox txtNguoiDung;
+        private TextBox txtMatKhau;
         private Label label2;
         private Button button1;
     }
