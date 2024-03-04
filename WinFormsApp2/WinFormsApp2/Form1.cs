@@ -9,8 +9,8 @@ namespace WinFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (txtUserName.Text == "Admin" && txtPassword.Text == "Admin") {
-                MessageBox.Show("Thanh Cong");
+            if (txtNguoiDung.Text == "Admin" && txtMatKhau.Text == "Admin") {
+                MessageBox.Show("Thanh Cong!");
             }
         }
     }
