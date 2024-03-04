@@ -7,6 +7,7 @@
             InitializeComponent();
         }
 
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (txtNguoiDung.Text == "Admin" && txtMatKhau.Text == "Admin") {
@@ -29,5 +30,13 @@
          * tu day thu roi thu lai thu
          * long toi con gia den bao gio
          */
+
+        /*
+        Đang lúc lòng tôi muốn tạm yên
+        bỗng ai mang lại cánh hoa tim
+        cho toi ép nốt dòng dư lệ
+        rõ xuống thành thơ khóc chút duyên
+        */
+
     }
 }
