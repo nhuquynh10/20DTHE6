@@ -6,5 +6,11 @@ namespace WinFormsApp2
         {
             InitializeComponent();
         }
+        /*
+        Đang lúc lòng tôi muốn tạm yên
+        bỗng ai mang lại cánh hoa tim
+        cho toi ép nốt dòng dư lệ
+        rõ xuống thành thơ khóc chút duyên
+        */
     }
 }
