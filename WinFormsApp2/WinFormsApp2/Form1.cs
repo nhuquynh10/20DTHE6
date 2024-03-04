@@ -13,5 +13,10 @@ namespace WinFormsApp2
                 MessageBox.Show("Thanh Cong!");
             }
         }
+
+        /*
+         * Nguoi xa xam qua toi buon qua
+         * trong mot ngay vui phao nhuom duong
+         */
     }
 }
