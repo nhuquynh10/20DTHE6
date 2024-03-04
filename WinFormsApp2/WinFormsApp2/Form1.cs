@@ -1,4 +1,4 @@
-namespace WinFormsApp2
+﻿namespace WinFormsApp2
 {
     public partial class Form1 : Form
     {
@@ -15,8 +15,19 @@ namespace WinFormsApp2
         }
 
         /*
+         * đâu biết lần đi một lỡ làng
+         * dưới trời đau khổ chết yêu đương
+         */
+
+
+        /*
          * Nguoi xa xam qua toi buon qua
          * trong mot ngay vui phao nhuom duong
+         */
+
+        /*
+         * tu day thu roi thu lai thu
+         * long toi con gia den bao gio
          */
     }
 }
