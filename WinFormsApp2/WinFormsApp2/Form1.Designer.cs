@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            txtNguoiDung = new TextBox();
+            txtMatKhau = new TextBox();
             label2 = new Label();
             button1 = new Button();
             SuspendLayout();
@@ -39,24 +39,24 @@
             // 
             label1.AutoSize = true;
             label1.Location = new Point(134, 107);
-            label1.Name = "lbUserName";
+            label1.Name = "label1";
             label1.Size = new Size(78, 20);
             label1.TabIndex = 0;
             label1.Text = "UserName";
             // 
-            // textBox1
+            // txtNguoiDung
             // 
-            textBox1.Location = new Point(255, 109);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(355, 27);
-            textBox1.TabIndex = 1;
+            txtNguoiDung.Location = new Point(255, 109);
+            txtNguoiDung.Name = "txtNguoiDung";
+            txtNguoiDung.Size = new Size(355, 27);
+            txtNguoiDung.TabIndex = 1;
             // 
-            // textBox2
+            // txtMatKhau
             // 
-            textBox2.Location = new Point(255, 172);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(355, 27);
-            textBox2.TabIndex = 3;
+            txtMatKhau.Location = new Point(255, 172);
+            txtMatKhau.Name = "txtMatKhau";
+            txtMatKhau.Size = new Size(355, 27);
+            txtMatKhau.TabIndex = 3;
             // 
             // label2
             // 
@@ -75,6 +75,7 @@
             button1.TabIndex = 4;
             button1.Text = "Login";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
@@ -82,9 +83,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(button1);
-            Controls.Add(textBox2);
+            Controls.Add(txtMatKhau);
             Controls.Add(label2);
-            Controls.Add(textBox1);
+            Controls.Add(txtNguoiDung);
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
@@ -95,8 +96,8 @@
         #endregion
 
         private Label label1;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtNguoiDung;
+        private TextBox txtMatKhau;
         private Label label2;
         private Button button1;
     }
